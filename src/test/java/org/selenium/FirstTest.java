@@ -14,7 +14,7 @@ public class FirstTest {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://askomdch.com/");
-		driver.getTitle();
+		System.out.println(driver.getTitle());
 		driver.quit();
 	}
 
